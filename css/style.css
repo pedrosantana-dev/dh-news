@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+}
+
+.conteudo {
+    max-width: 900px;
+    margin: 10px auto 10px auto;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 6px;
+}
+.sub-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.data-postada {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.imagemDestaque {
+    background-image: url('../img/destaque.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+footer ul li {
+    display: inline;
+    margin-left: 25px;
+}
+footer li a img {
+    width: 32px;
+    height: 32px;
+}
